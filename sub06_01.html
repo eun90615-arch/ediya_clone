@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>sub01_coffee beans</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/sub06_01.css" />
+
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/ediya.js" defer></script>
+</head>
+
+<body>
+  <div class="wrap">
+    <!-- GNB -->
+    <header>
+      <div class="top">
+        <ul class="top_site topmenu">
+          <li class="bar on"><a href="index.html">브랜드 사이트</a></li>
+          <li class="bar"><a href="company.html">기업 사이트</a></li>
+          <li class="bar"><a href="#">창업안내</a></li>
+          <li><a href="#">채용안내</a></li>
+        </ul>
+        <ul class="top_btn topmenu">
+          <li class="bar"><a href="login.html">로그인</a></li>
+          <li class="bar"><a href="store.html">매장찾기</a></li>
+          <li class="bar"><a href="#">고객의 소리</a></li>
+          <li class="bar"><a href="#">이디야 스토어</a></li>
+          <li><a href="#">모바일 상품권스토어</a></li>
+          <ul class="sns">
+            <li>
+              <a href="https://blog.naver.com/ediya-coffee" target="_blank"><img src="img/common/img_top_sns01.png"
+                  alt="블로그" /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ediya.coffee/" target="_blank"><img src="img/common/img_top_sns02.png"
+                  alt="인스타" /></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/iEDIYA" target="_blank"><img src="img/common/img_top_sns03.png"
+                  alt="페이스북" /></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCK45lxAV_92LqR2DcQCP8Qg?view_as=subscriber" target="_blank"><img
+                  src="img/common/img_top_sns04.png" alt="유튜브" /></a>
+            </li>
+            <div class="top_search">
+              <img src="img/img_top_icon_search.gif" alt="">
+              <input type="search" />
+            </div>
+          </ul>
+        </ul>
+      </div>
+      <div class="bottom tab_btn on">
+        <h1 class="logo">
+          <a href="index.html"><img src="img/common/img_top_logo.gif" alt="" /></a>
+        </h1>
+        <ul class="gnb">
+          <li>
+            <a class="mainmenu_bar" href="sub01_01.html">원두</a>
+            <ul class="submenu">
+              <li><a href="sub01_01.html">이디야 블랜드</a></li>
+              <li><a href="sub01_02.html">품질</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="mainmenu_bar" href="sub02_01.html">메뉴</a>
+            <ul class="submenu">
+              <li><a href="sub02_01.html">음료</a></li>
+              <li>푸드</li>
+              <li>MD</li>
+            </ul>
+          </li>
+          <li>
+            <a class="mainmenu_bar" href="sub03_01.html">유통제품</a>
+            <ul class="submenu">
+              <li><a href="sub03_01.html">스틱커피</a></li>
+              <li>커피믹스</li>
+              <li>원두커피</li>
+              <li>RTD커피</li>
+              <li>스틱 파우더</li>
+              <li>수출입거래</li>
+              <li>B2B/특판/대리점 거래</li>
+            </ul>
+          </li>
+          <li>
+            <a class="mainmenu_bar" href="#">이디야멤버스</a>
+            <ul class="submenu">
+              <li>멤버십안내</li>
+              <li>서비스안내</li>
+            </ul>
+          </li>
+          <li>
+            <a class="mainmenu_bar" href="sub05_01.html">상품권.제휴카드</a>
+            <ul class="submenu">
+              <li><a href="sub05_01.html">제휴카드(하나&middot;신한)</a></li>
+              <li>이디야카드</li>
+              <li>모바일상품권</li>
+              <li>단체기업 구매</li>
+            </ul>
+          </li>
+          <li>
+            <a class="mainmenu_bar" href="sub06_01.html">브랜드 소식</a>
+            <ul class="submenu">
+              <li><a href="sub06_01.html">공지사항</a></li>
+              <li>이벤트 안내</li>
+              <li>사회공헌 활동</li>
+            </ul>
+          </li>
+          <li>
+            <a class="mainmenu_bar" href="sub07_01.html">고객지원 케이터링</a>
+            <ul class="submenu">
+              <li><a href="sub07_01.html">고객의 소리</a></li>
+              <li>소비자중심경영(CCM)</li>
+              <li>제휴 제안</li>
+              <li>케이터링&middot;커피트럭</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="bg"></div>
+    </header>
+    <!-- sub 공통 비쥬얼 영역 -->
+    <div class="subTitleArea">
+      <div class="subtitle">
+        <h2>공지사항</h2>
+        <p>
+          이디야는 국내 브랜드의 자부심을 지키며 <br>
+          대한민국 커피 문화를 이끌어 나갑니다.
+        </p>
+      </div>
+
+      <ul class="subtab_menu">
+        <li class="subtab on">
+          <a href="#">공지사항</a>
+        </li>
+        <li class="subtab">
+          <a href="#">이벤트 안내</a>
+        </li>
+        <li class="subtab">
+          <a href="#">사회공헌 활동</a>
+        </li>
+      </ul>
+    </div>
+    <!-- content -->
+
+    <div class="content01">
+      <div class="inner">
+        <div class="breadcrumbs">
+          <p>HOME</p>
+          <img src="img/common/ico_common_breadcrumbs_arrow.png" alt="" />
+          <p>이디야 소식</p>
+          <img src="img/common/ico_common_breadcrumbs_arrow.png" alt="" />
+          <p>공지사항</p>
+        </div>
+        <div class="search">
+          <select name="구분">
+            <option value="title">제목</option>
+            <option value="text">내용</option>
+          </select>
+          <div class="textsearch">
+            <a href="#"><img src="img/img_top_icon_search.gif" alt=""></a>
+            <input type="search">
+          </div>
+        </div>
+        <div class="board">
+          <table class="table">
+            <tbody>
+              <tr>
+                
+                  <td>10</td>
+                  <td>
+                    <a href="#"><span>이디야커피, 일부 메뉴 가격 조정 안내</span></a>
+                  </td>
+                  <td>2025.07.01</td>
+                
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>
+                  <a href="#"><span>배달 서비스 전용 판매가 별도 운영 안내</span></a>
+                </td>
+                <td>2025.03.12</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>
+                  <a href="#">
+                    <span>E드림 이벤트 적립 불가 매장 리스트(1/7~소진시)</span>
+                    <p>행사 참여 불가 매장 (멤버스 적립 불가 특수 매장)3공수특전여단점9사단점ASML이천점CampCasey점RodriguezRange점Warriorbase점강원대점경동나비엔서탄공장점광양체육관점광양포스코점구미삼성점기흥삼성점김천구미역점김해...</p>
+                  </a>
+                </td>
+                <td>2025.09.15</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>
+                  <a href="#">
+                    <span>12월 이디야커피 한시적 연장 영업 매장 안내</span>
+                    <p> 24년 12월 한시적 연장 영업 매장 리스트 &nbsp; 각 매장별 '연장 영업시간'은 이디야 홈페이지 '매장찾기' 메뉴에서 확인 가능합니다.&nbsp; 24년 12월 한시적으로 연장 영업을 진행합니다. 매장명매장명매장...</p>
+                  </a>
+                </td>
+                <td>2025.09.15</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>
+                  <a href="#">
+                    <span>변우석 등신대 보유 매장 리스트</span>
+                    <p>&nbsp; 매장별로 등신대 입고 시점이 조금씩 상이할 수 있습니다.&nbsp; 등신대 보유 매장 리스트는 주기적으로 업데이트 됩니다.매장명매장명매장명매장명매장명EBS1호점남양주청학리점부산부경대후문점여수웅천디아일랜드점제주남원점IBK고객센터점남양주팔...</p>
+                  </a>
+                </td>
+                <td>2025.09.15</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>
+                  <a href="#">
+                    <span>해피머니 상품권 사용 일시 중단 안내 </span>
+                    <p>행사 참여 불가 매장 (멤버스 적립 불가 특수 매장)안녕하세요 이디야커피입니다.제휴사 요청으로 인하여 해피머니 상품권 사용 일시 중단을 알려드립니다. 감사합니다. &nbsp; 해피머니 상품권 사용 중단 일시: 즉시(2024.07.25~)&nbsp;운영 재개 시, 별도 안내 예정&n...</p>
+                  </a>
+                </td>
+                <td>2025.09.15</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>
+                  <a href="#">
+                    <span>이디야커피랩 위승찬 바리스타 세계 대회(WCIGS) 월드 챔피언 등극</span>
+                    <p>이디야커피랩 소속 위승찬 바리스타가 지난달 29일(현지시간) 덴마크 코펜하겐에서 열린 WCIGS대회에서 우승을 차지하며 월드팸피언 등극​</p>
+                  </a>
+                </td>
+                <td>2025.09.15</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td class="b_txt">
+                  <a href="#">
+                    <span>디카페인 운영 점포 매장 리스트 안내(24.6월 기준)</span>
+                    <p>​디카페인 원두 운영 매장은 매장 사정에 따라 변동 될 수 있습니다.    매장명매장명매장명매장명매장명 명지대점  신당중앙점  역삼더블루점  이천송정점  경주월성점  서대문점  동평화점  역삼충현점...</p>
+                  </a>
+                </td>
+                <td>2025.09.15</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>
+                  <a href="#">
+                    <span>소프트아이스크림 판매 매장 리스트 </span>
+                    <p>​이디야커피 소프트 아이스크림 판매 매장 리스트는 매장 상황에 따라 수시 변동 될 수 있으니 참고 부탁드립니다.  매장명명동거리점포항해병1사단점의정부장암역점오이도점의정부솔뫼DT점강남대치점보령시청점강릉교동택지점목포평화...</p>
+                  </a>
+                </td>
+                <td>2025.09.15</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>
+                  <a href="#">
+                    <span>샐러드빵 프로모션 취급 매장 리스트</span>
+                  </a> 
+                </td>
+                <td>2025.09.15</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="pagenation">
+            <a href="#"><img src="img/sub06/page_prev.gif" alt="prev"></a>
+            <p>1</p>
+            <a href="#"><img src="img/sub06/page_next.gif" alt="next"></a>
+          </div>
+        </div>
+          
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="foot_textarea">
+      <ul>
+        <li><a href="#">영상청보처리기기 운영 관리방침</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">멤버스 이용 약관</a></li>
+        <li><a href="#">가맹안내</a></li>
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">매장운영 통합시스템(가맹 점주용)</a></li>
+        <li>
+          <select name="언어" id="ranguage">
+            <option value="kor">Korean</option>
+            <option value="eng">English</option>
+            <option value="ch">Chinese</option>
+          </select>
+        </li>
+      </ul>
+    </div>
+    <div class="logoWrap">
+      <img src="img/common/img_footer_logo.png" alt="" />
+    </div>
+    <div class="address">
+      <span>서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동
+        221-17)</span>
+      <span>TEL : 02-543-6467</span>
+      <span>FAX : 02-543-7191</span>
+    </div>
+    <div class="address">
+      <span>사업자등록번호 : 107-86-16302</span>
+      <span>통신판매업 신고 : 강남 제 002519호</span>
+      <span>대표이사 : 조규동</span>
+    </div>
+    <p>ⓒ 2017 EDIYA COFFEE COMPANY. ALL RIGHTS RESERVED..</p>
+  </footer>
+  </div>
+</body>
+
+</html>

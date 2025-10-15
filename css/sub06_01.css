@@ -1,0 +1,113 @@
+/* 공통 타이틀 영역 컬러수정 */
+.subTitleArea {
+  background: url(../img/sub06/img_sub06_01_visual.jpg) no-repeat center/cover;
+  margin-bottom: 60px;
+}
+
+.subTitleArea .subtitle h2 {
+  color: var(--black);
+}
+
+.subTitleArea .subtitle p {
+  color: var(--black);
+}
+
+/* tab 밝은 배경 컬러 */
+.subTitleArea .subtab_menu .subtab {
+  color: var(--gray4);
+  border: 1px solid var(--gray8);
+}
+
+.subTitleArea .subtab_menu .on {
+  background: var(--gray8);
+  color: var(--white);
+}
+
+.subTitleArea .subtab_menu .subtab:hover {
+  background: var(--gray8);
+  color: var(--white);
+}
+
+.content01 .search {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.content01 .search select {
+  width: 100px;
+  height: 40px;
+  padding: 5px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.content01 .search input {
+  width: 200px;
+  height: 40px;
+  padding: 5px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.content01 .search .textsearch {
+  position: relative;
+}
+.content01 .search img {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  width: 15px;
+  height: 15px;
+}
+.content01 .board {
+  margin-bottom: 100px;
+}
+.content01 .board table {
+  margin-bottom: 60px;
+}
+.content01 .board table tbody tr:first-child {
+  border-top: 2px solid var(--mainColor);
+}
+.content01 .board table tbody tr {
+  border-bottom: 1px solid #ddd;
+  height: 200px;
+  padding: 20px;
+}
+.content01 .board table tbody tr td {
+  padding: 20px;
+}
+.content01 .board table tbody tr td span {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 18px;
+  margin-right: 100px;
+}
+.content01 .board table tbody tr td p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-right: 160px;
+}
+.content01 .board .pagenation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.content01 .board .pagenation p {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--mainColor);
+}
+.content01 .board table tbody tr td:first-child {
+  font-size: 14px;
+  font-weight: 600;
+}
+.content01 .board table tbody tr td:last-child {
+  font-size: 14px;
+  color: var(--gray8);
+}

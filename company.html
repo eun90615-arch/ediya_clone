@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head link rel="">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDIYA COFFEE</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/company.css" />
+    <link rel="stylesheet" href="css/tablet_index.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/ediya.js" defer></script>
+
+    <style>
+      :root {
+        --swiper-theme-color: #243c84;
+        --swiper-bg-color: #fff;
+        --swiper-theme-color2: #90470c;
+      }
+      .swiper-button-next:after,
+      .swiper-button-prev:after {
+        color: var(--swiper-bg-color);
+      }
+
+      .swiper-pagination-bullet {
+        width: var(
+          --swiper-pagination-bullet-width,
+          var(--swiper-pagination-bullet-size, 10px)
+        );
+        height: var(
+          --swiper-pagination-bullet-height,
+          var(--swiper-pagination-bullet-size, 10px)
+        );
+        background: var(--swiper-bg-color, #000);
+        opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);
+      }
+      .swiper-pagination-bullet-active {
+        opacity: var(--swiper-pagination-bullet-opacity, 1);
+        background: var(--swiper-pagination-color, var(--swiper-theme-color));
+      }
+      .content01 .swiper-pagination-bullet-active {
+        opacity: var(--swiper-pagination-bullet-opacity, 1);
+        background: var(--swiper-pagination-color, var(--swiper-theme-color2));
+      }
+
+      .swiper-horizontal > .swiper-pagination-bullets,
+      .swiper-pagination-bullets.swiper-pagination-horizontal,
+      .swiper-pagination-custom,
+      .swiper-pagination-fraction {
+        bottom: var(--swiper-pagination-bottom, 25px);
+        top: var(--swiper-pagination-top, auto);
+        left: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <!-- GNB -->
+    <header class="GNB_w">
+      <div class="top">
+        <ul class="top_site topmenu">
+          <li class="bar"><a href="index.html">브랜드 사이트</a></li>
+          <li class="bar on"><a href="company.html">기업 사이트</a></li>
+          <li class="bar"><a href="#">창업안내</a></li>
+          <li><a href="#">채용안내</a></li>
+        </ul>
+        <ul class="top_btn topmenu">
+          <li class="bar"><a href="login.html">로그인</a></li>
+          <li class="bar"><a href="store.html">매장찾기</a></li>
+          <li class="bar"><a href="#">고객의 소리</a></li>
+          <li class="bar"><a href="#">이디야 스토어</a></li>
+          <li><a href="#">모바일 상품권스토어</a></li>
+          <ul class="sns">
+            <li>
+              <a href="https://blog.naver.com/ediya-coffee" target="_blank"><img src="img/common/img_top_sns01.png"
+                  alt="블로그" /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ediya.coffee/" target="_blank"><img src="img/common/img_top_sns02.png"
+                  alt="인스타" /></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/iEDIYA" target="_blank"><img src="img/common/img_top_sns03.png"
+                  alt="페이스북" /></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCK45lxAV_92LqR2DcQCP8Qg?view_as=subscriber" target="_blank"><img
+                  src="img/common/img_top_sns04.png" alt="유튜브" /></a>
+            </li>
+            <div class="top_search">
+              <img src="img/img_top_icon_search.gif" alt="" />
+              <input type="search" />
+            </div>
+          </ul>
+        </ul>
+      </div>
+      <div class="bottom tab_btn on">
+        <h1 class="logo">
+          <a href="index.html"><img src="img/common/img_top_logo.gif" alt="" /></a>
+        </h1>
+        <ul class="gnb">
+          <li>
+            <a class="mainmenu_bar" href="sub01_01.html">원두</a>
+            <ul class="submenu">
+              <li><a href="sub01_01.html">이디야 블랜드</a></li>
+              <li><a href="sub01_02.html">품질</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="mainmenu_bar" href="sub02_01.html">메뉴</a>
+            <ul class="submenu">
+              <li><a href="sub02_01.html">음료</a></li>
+              <li>푸드</li>
+              <li>MD</li>
+            </ul>
+          </li>
+          <li>
+            <a class="mainmenu_bar" href="sub03_01.html">유통제품</a>
+            <ul class="submenu">
+              <li><a href="sub03_01.html">스틱커피</a></li>
+              <li>커피믹스</li>
+              <li>원두커피</li>
+              <li>RTD커피</li>
+              <li>스틱 파우더</li>
+              <li>수출입거래</li>
+              <li>B2B/특판/대리점 거래</li>
+            </ul>
+          </li>
+          <li>
+            <a class="mainmenu_bar" href="#">이디야멤버스</a>
+            <ul class="submenu">
+              <li>멤버십안내</li>
+              <li>서비스안내</li>
+            </ul>
+          </li>
+          <li>
+            <a class="mainmenu_bar" href="sub05_01.html">상품권.제휴카드</a>
+            <ul class="submenu">
+              <li><a href="sub05_01.html">제휴카드(하나&middot;신한)</a></li>
+              <li>이디야카드</li>
+              <li>모바일상품권</li>
+              <li>단체기업 구매</li>
+            </ul>
+          </li>
+          <li>
+            <a class="mainmenu_bar" href="sub06_01.html">브랜드 소식</a>
+            <ul class="submenu">
+              <li><a href="sub06_01.html">공지사항</a></li>
+              <li>이벤트 안내</li>
+              <li>사회공헌 활동</li>
+            </ul>
+          </li>
+          <li>
+            <a class="mainmenu_bar" href="sub07_01.html">고객지원 케이터링</a>
+            <ul class="submenu">
+              <li><a href="sub07_01.html">고객의 소리</a></li>
+              <li>소비자중심경영(CCM)</li>
+              <li>제휴 제안</li>
+              <li>케이터링&middot;커피트럭</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="bg"></div>
+    </header>
+    <!-- tablet, mobile GNB -->
+    <header class="GNB_m">
+      <div class="top">
+        <ul class="top_site topmenu">
+          <li class="bar"><a href="index.html">브랜드 사이트</a></li>
+          <li class="bar on"><a href="company.html">기업 사이트</a></li>
+          <li class="bar"><a href="#">창업안내</a></li>
+          <li><a href="#">채용안내</a></li>
+        </ul>
+      </div>
+
+      <div class="bottom_menu">
+        <div class="bottom tab_btn">
+          <h1 class="logo">
+            <a href="index.html"><img src="img/common/img_top_logo.gif" alt="" /></a>
+          </h1>
+          <img class="side_open" src="img/common/img_m_nav_btn.gif" alt="" />
+        </div>
+
+      </div>
+      <div class="sidemenu">
+        <div class="side_close">
+          <img src="img/common/m_nav_close.png" alt="메뉴닫기">
+        </div>
+        <div class="sidemenu_top">
+          <ul class="top_btn">
+            <li class="bar"><a href="login.html">로그인</a></li>
+            <li class="bar"><a href="store.html">매장찾기</a></li>
+            <li class="bar"><a href="#">고객의 소리</a></li>
+            <li class="bar"><a href="#">이디야 스토어</a></li>
+            <li><a href="#">모바일 상품권스토어</a></li>
+          </ul>
+          <ul class="sns">
+            <li>
+              <a href="https://blog.naver.com/ediya-coffee" target="_blank"><img src="img/common/img_top_sns01.png"
+                  alt="블로그" /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ediya.coffee/" target="_blank"><img src="img/common/img_top_sns02.png"
+                  alt="인스타" /></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/iEDIYA" target="_blank"><img src="img/common/img_top_sns03.png"
+                  alt="페이스북" /></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCK45lxAV_92LqR2DcQCP8Qg?view_as=subscriber" target="_blank"><img
+                  src="img/common/img_top_sns04.png" alt="유튜브" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="sidemenuline"></div>
+        <div class="menuList">
+          <!-- ====================================== -->
+          <ul>
+            <li class="list">
+              <p class="accordion">
+                <a href="sub01_01.html">원두</a>
+                <img class="arrow" src="img/common/imgi_50_m_nav_arrow.gif" alt="">
+              </p>
+              <ul class="submenu">
+                <li><a href="sub01_01.html">이디야 블랜드</a></li>
+                <li><a href="sub01_02.html">품질</a></li>
+              </ul>
+            </li>
+            <!-- ====================================== -->
+            <li class="list">
+              <p class="accordion">
+                <a href="sub02_01.html">메뉴</a>
+                <img class="arrow" src="img/common/imgi_50_m_nav_arrow.gif" alt="">
+              </p>
+              <ul class="submenu">
+                <li><a href="sub02_01.html">음료</a></li>
+                <li>푸드</li>
+                <li>MD</li>
+              </ul>
+            </li>
+            <li class="list">
+              <p class="accordion">
+                <a href="sub03_01.html">유통제품</a>
+                <img class="arrow" src="img/common/imgi_50_m_nav_arrow.gif" alt="">
+              </p>
+              <ul class="submenu">
+                <li><a href="sub03_01.html">스틱커피</a></li>
+                <li>커피믹스</li>
+                <li>원두커피</li>
+                <li>RTD커피</li>
+                <li>스틱 파우더</li>
+                <li>수출입거래</li>
+                <li>B2B/특판/대리점 거래</li>
+              </ul>
+            </li>
+            <li class="list">
+              <p class="accordion">
+                <a href="#">이디야멤버스</a>
+                <img class="arrow" src="img/common/imgi_50_m_nav_arrow.gif" alt="">
+              </p>
+              <ul class="submenu">
+                <li>멤버십안내</li>
+                <li>서비스안내</li>
+              </ul>
+            </li>
+            <li class="list">
+              <p class="accordion">
+                <a href="sub05_01.html">상품권.제휴카드</a>
+                <img class="arrow" src="img/common/imgi_50_m_nav_arrow.gif" alt="">
+              </p>
+              <ul class="submenu">
+                <li><a href="sub05_01.html">제휴카드(하나&middot;신한)</a></li>
+                <li>이디야카드</li>
+                <li>모바일상품권</li>
+                <li>단체기업 구매</li>
+              </ul>
+            </li>
+            <li class="list">
+              <p class="accordion">
+                <a href="sub06_01.html">브랜드 소식</a>
+                <img class="arrow" src="img/common/imgi_50_m_nav_arrow.gif" alt="">
+              </p>
+              <ul class="submenu">
+                <li><a href="sub06_01.html">공지사항</a></li>
+                <li>이벤트 안내</li>
+                <li>사회공헌 활동</li>
+              </ul>
+            </li>
+            <li class="list">
+              <p class="accordion">
+                <a href="sub07_01.html">고객지원 케이터링</a>
+                <img class="arrow" src="img/common/imgi_50_m_nav_arrow.gif" alt="">
+              </p>
+              <ul class="submenu">
+                <li><a href="sub07_01.html">고객의 소리</a></li>
+                <li>소비자중심경영(CCM)</li>
+                <li>제휴 제안</li>
+                <li>케이터링&middot;커피트럭</li>
+              </ul>
+            </li>
+            <li class="listright">
+              <a href="#">매장찾기</a>
+            </li>
+            <li class="listright">
+              <div class="top_search">
+              <img src="img/img_top_icon_search.gif" alt="" />
+              <input type="search" />
+            </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="dim"></div>
+    </header>
+      <!-- 기업 사이트 -->
+      <div class="tab_main company">
+        <!-- Visual -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide company_bg01"></div>
+            <div class="swiper-slide company_bg02"></div>
+            <div class="swiper-slide company_bg03"></div>
+            <div class="swiper-slide company_bg04"></div>
+            <div class="swiper-slide company_bg05"></div>
+            <div class="swiper-slide company_bg06"></div>
+            <div class="swiper-slide company_bg07"></div>
+            <div class="swiper-slide company_bg08"></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- content01 -->
+        <div class="content01">
+          <div class="inner">
+            <div class="comp_title">
+              <h2>이디야 가맹점 개설</h2>
+              <p>
+                이디야커피는 합리적인 가격과 최고급 품질의 커피를 모토로 2001년
+                사업 시작 이후 <br />
+                2025년 현재 24년 이상의 매장운영 노하우를 보유한 커피 전문
+                브랜드 입니다.
+              </p>
+            </div>
+            <ul>
+              <li>
+                <img
+                  src="img/company/img_company_content01_icon01.gif"
+                  alt=""
+                />
+                <span>가맹안내</span>
+                <p>
+                  지속성장의 경쟁력을 인정받은 <br />
+                  커피 브랜드 입니다.
+                </p>
+              </li>
+              <li>
+                <img
+                  src="img/company/img_company_content01_icon02.gif"
+                  alt=""
+                />
+                <span>투자비용</span>
+                <p>창업 시 필요한 비용을<br />알려드립니다.</p>
+              </li>
+              <li>
+                <img
+                  src="img/company/img_company_content01_icon03.gif"
+                  alt=""
+                />
+                <span>FAQ</span>
+                <p>
+                  가맹점 개설에 관한 <br />
+                  궁금증을 해결해 드립니다.
+                </p>
+              </li>
+              <li>
+                <img
+                  src="img/company/img_company_content01_icon04.gif"
+                  alt=""
+                />
+                <span>창업설명회</span>
+                <p>
+                  창업설명회 일정안내 및<br />사전예약 신청을 할 수 있습니다.
+                </p>
+              </li>
+              <li>
+                <img
+                  src="img/company/img_company_content01_icon05.gif"
+                  alt=""
+                />
+                <span>창업문의</span>
+                <p>이디야커피 창업 문의를<br />할 수 있습니다.</p>
+              </li>
+            </ul>
+            <ul class="number">
+              <li>
+                <dl>
+                  <dt>대표번호</dt>
+                  <dd>02-543-6467</dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt>본사</dt>
+                  <dd>02-6048-4138</dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt>영남</dt>
+                  <dd>051-927-2000</dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt>호남</dt>
+                  <dd>062-384-6467</dd>
+                </dl>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- content02 -->
+        <div class="content02">
+          <div class="content02_bgimg">
+            <img src="img/img_banner02_img.webp" alt="" />
+          </div>
+          <div class="inner">
+            <img src="img/img_banner02_text.webp" alt="" />
+            <span>EDIYA COFFEE</span>
+            <p>
+              최첨단 시설에서 탐생하는 고품질의 원두로 <br />
+              최고의 커피맛을 고객들에게 제공합니다.
+            </p>
+            <div class="btnWrap">
+              <div class="banner_btn"><a href="#">드림 팩토리</a></div>
+              <div class="banner_btn">드림 물류센터</div>
+            </div>
+          </div>
+        </div>
+        <!-- content03 -->
+        <div class="content03">
+          <div class="comp_title">
+            <h2>이디야 연구소</h2>
+            <p>
+              최고의 커피, 그 이상의 가치를 <br />
+              이디야를 찾는 모든 고객분들이 경험하실 수 있도록 <br />
+              이디야의 신념과 철학을 만들어 나갑니다.
+            </p>
+          </div>
+          <div class="box_img">
+            <span>R&D</span>
+            <p>
+              한 잔의 완벽한 커피를 위해<br />
+              끊임없이 연구합니다.
+            </p>
+          </div>
+        </div>
+        <!-- content04 -->
+        <div class="content04">
+          <div class="inner">
+            <iframe
+              src="https://www.youtube.com/embed/zD1zlEXZCG4"
+              title="커피 한 잔의 진심, 이디야 드림팩토리"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <div class="right">
+              <div class="news">
+                <div class="news_title">
+                  <h3>NEWS</h3>
+                  <a href="#"
+                    ><img
+                      src="img/company/ico_company_content04_more.png"
+                      alt=""
+                  /></a>
+                </div>
+                <ul>
+                  <li>
+                    <a href="#"
+                      >[뉴시스] 이디야커피, 가을 재료 활용 음료 코스 '...</a
+                    >
+                    <p>2025.09.05</p>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >[뉴시스] 이디야커피, 가을 재료 활용 음료 코스 '...</a
+                    >
+                    <p>2025.09.05</p>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >[뉴시스] 이디야커피, 가을 재료 활용 음료 코스 '...</a
+                    >
+                    <p>2025.09.05</p>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >[뉴스1] 이디야커피, 호텔스닷컴과 이탈리아 여행 경품
+                      이벤...</a
+                    >
+                    <p>2025.09.05</p>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >[아시아경제] 나폴리맛피아와 맞손…이디야커피, 가을
+                      한정...</a
+                    >
+                    <p>2025.09.05</p>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >[아시아경제] 나폴리맛피아와 맞손…이디야커피, 가을
+                      한정...</a
+                    >
+                    <p>2025.09.05</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer>
+        <div class="foot_textarea">
+          <ul>
+            <li><a href="#">영상청보처리기기 운영 관리방침</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">멤버스 이용 약관</a></li>
+            <li><a href="#">가맹안내</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">매장운영 통합시스템(가맹 점주용)</a></li>
+            <li>
+              <select name="언어" id="ranguage">
+                <option value="kor">Korean</option>
+                <option value="eng">English</option>
+                <option value="ch">Chinese</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+        <div class="logoWrap">
+          <a href="index.html"
+            ><img src="img/common/img_footer_logo.png" alt=""
+          /></a>
+        </div>
+        <div class="address">
+          <span
+            >서울특별시 강남구 논현로 636 이디야빌딩(서울특별시 강남구 논현동
+            221-17)</span
+          >
+          <span>TEL : 02-543-6467</span>
+          <span>FAX : 02-543-7191</span>
+        </div>
+        <div class="address">
+          <span>사업자등록번호 : 107-86-16302</span>
+          <span>통신판매업 신고 : 강남 제 002519호</span>
+          <span>대표이사 : 조규동</span>
+        </div>
+        <p>ⓒ 2017 EDIYA COFFEE COMPANY. ALL RIGHTS RESERVED..</p>
+      </footer>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>

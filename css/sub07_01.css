@@ -1,0 +1,221 @@
+/* 공통 타이틀 영역 컬러수정 */
+.subTitleArea {
+  background: url(../img/sub06/img_sub06_01_visual.jpg) no-repeat center/cover;
+  margin-bottom: 60px;
+}
+
+.subTitleArea .subtitle h2 {
+  color: var(--black);
+}
+
+.subTitleArea .subtitle p {
+  color: var(--black);
+}
+/* tab 밝은 배경 컬러 */
+.subTitleArea .subtab_menu .subtab {
+  color: var(--gray4);
+  border: 1px solid var(--gray8);
+}
+
+.subTitleArea .subtab_menu .on {
+  background: var(--gray8);
+  color: var(--white);
+}
+
+.subTitleArea .subtab_menu .subtab:hover {
+  background: var(--gray8);
+  color: var(--white);
+}
+
+/* content */
+h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+h3 em {
+  color: var(--mainColor);
+  font-weight: 600;
+}
+.cont_title {
+  margin-bottom: 60px;
+}
+.cont_title h4 {
+  font-size: 26px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--black);
+}
+.cont_title h4::after {
+  content: "";
+  width: 14px;
+  height: 4px;
+  background: var(--black);
+  display: block;
+  margin: 20px auto;
+}
+.cont_title p {
+  text-align: center;
+  font-size: 18px;
+  color: var(--gray8);
+}
+.cont_btn {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  background: var(--mainColor);
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  line-height: 42px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+/* content */
+.content01 {
+  margin: 100px;
+}
+.content02 {
+  background: hsl(0, 0%, 96%);
+  padding: 100px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 60px 0;
+  background: var(--white);
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+.content02 .inner .FAQ_box figure {
+  width: 80px;
+  height: 80px;
+}
+.content02 .FAQ_box figure img {
+  width: 100%;
+}
+.content02 .FAQ_box ul li {
+  font-size: 18px;
+  line-height: 1.7;
+  font-weight: 500;
+  position: relative;
+  padding-left: 16px;
+}
+.content02 .FAQ_box ul li::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  display: block;
+  background: #ccc;
+  position: absolute;
+  top: 12px;
+  left: 0;
+}
+
+.content03 {
+  padding: 100px;
+}
+.content03 .cs_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.content03 .cs_box .box {
+  width: 100%;
+  padding: 60px 70px;
+  box-sizing: border-box;
+  background: var(--white);
+}
+.content03 .cs_box .box figure {
+  width: 80px;
+  height: 80px;
+}
+.content03 .cs_box .box figure img {
+  width: 100%;
+}
+.content03 .cs_box .box dl dt {
+  font-weight: 600;
+  font-size: 20px;
+}
+.content03 .cs_box .box dl dd {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.content03 .cs_box .box dl dd strong {
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--mainColor);
+  margin-bottom: 14px;
+  display: block;
+}
+.content03 .cs_box .box .cs_btn .cont_btn:first-child {
+  margin-bottom: 8px;
+}
+.content04 {
+  padding: 100px;
+  background: #f5f5f5;
+}
+.content04 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content04 ul li {
+  background: var(--white);
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 40px 50px;
+  position: relative;
+}
+.content04 ul li:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url(../img/sub07/step_arrow.gif) no-repeat center/contain;
+  position: absolute;
+  top: 49%;
+  right: -40px;
+}
+.content04 ul li:last-child::after {
+  display: none;
+}
+.content04 ul li img {
+  display: block;
+}
+.content04 ul li strong {
+  color: var(--mainColor);
+  line-height: 1.6;
+  display: block;
+  margin-top: 6px;
+  font-size: 18px;
+}
+.content05 {
+  padding: 100px;
+}
+.content05 table caption {
+  display: none;
+}
+.content05 table {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.content05 table thead tr th {
+  background: #f5f5f5;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 20px;
+}

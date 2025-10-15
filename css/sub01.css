@@ -1,0 +1,46 @@
+.subTitleArea {
+  background: url(../img/sub01/img_sub01_1_visual.jpg) no-repeat center/cover;
+}
+/* content01 */
+.content01 {
+  height: 4000px;
+}
+.content01 .inner{
+    text-align: center;
+}
+.content01 .inner span {
+  font-size: 22px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+.content01 .inner span::after {
+  content: "";
+  display: block;
+  margin: 40px auto 80px;
+  height: 1px;
+  width: 640px;
+  background: var(--black);
+}
+.content01 .inner ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+    margin-bottom: 60px;
+}
+.content01 .inner ul li dl dt{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+}
+.content01 .inner ul li dl dt::after{
+  content: "";
+  display: block;
+  margin: 40px 0;
+  height: 1px;
+  width: 40px;
+  background: var(--black);
+}
+.content01 .inner ul li dl dd {
+    text-align: left;
+}

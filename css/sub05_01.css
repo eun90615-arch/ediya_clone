@@ -1,0 +1,178 @@
+/* 공통 타이틀 영역 컬러수정 */
+.subTitleArea {
+  background: url(../img/sub04/img_sub04_01_visual.jpg) no-repeat center/cover;
+  margin-bottom: 60px;
+}
+.subTitleArea .subtitle h2 {
+  color: var(--black);
+}
+.subTitleArea .subtitle p {
+  color: var(--black);
+}
+/* tab 밝은 배경 컬러 */
+.subTitleArea .subtab_menu .subtab {
+  color: var(--gray4);
+  border: 1px solid var(--gray8);
+}
+.subTitleArea .subtab_menu .on {
+  background: var(--gray8);
+  color: var(--white);
+}
+.subTitleArea .subtab_menu .subtab:hover {
+  background: var(--gray8);
+  color: var(--white);
+}
+/* content */
+.content01 {
+  margin-bottom: 100px;
+  text-align: center;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+h3::after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background: var(--mainColor);
+  display: block;
+  margin: 30px auto 60px;
+}
+.content01 img {
+  margin-bottom: 100px;
+}
+.content01 .card_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content01 .card_info .card_info_box {
+  width: 400px;
+  height: 274px;
+  background: #f5f5f5;
+  padding: 40px 40px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.content01 .card_info .card_info_box .text_wrap {
+  display: flex;
+  flex-direction: column; /* 또는 row */
+  justify-content: center; /* 세로 방향으로 가운데 */
+  align-items: center; /* 가로 방향 가운데 (필요 시) */
+  /* 
+  display: table-cell; //표로 인식하도록
+  vertical-align: middle  //세로 가운데 정렬
+  */
+  height: 100%;
+}
+.content01 .card_info .card_info_box::before {
+  content: "";
+  width: 60px;
+  height: 74px;
+  display: block;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  background: url(../img/sub04/img_sub04_01_cont01_box2_num1.png) no-repeat
+    center/contain;
+}
+.content01 .card_info .box02::before {
+  background: url(../img/sub04/img_sub04_01_cont01_box2_num2.png) no-repeat
+    center/contain;
+}
+.content01 .card_info .box03::before {
+  background: url(../img/sub04/img_sub04_01_cont01_box2_num3.png) no-repeat
+    center/contain;
+}
+.content01 .card_info .card_info_box span {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.5;
+  display: block;
+}
+.content01 .card_info .card_info_box strong {
+  background: var(--mainColor);
+  color: var(--white);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+  display: block;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.content01 .card_info .card_info_box p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* content02 */
+.content02 {
+  text-align: center;
+  background: #f5f5f5;
+  padding: 100px;
+}
+.content02 ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: start;
+}
+.content02 ul li {
+  width: 200px;
+  margin: 30px;
+}
+.content02 ul li img {
+  margin-bottom: 20px;
+}
+.content02 ul li span {
+  font-size: 22px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 18px;
+}
+.content02 ul li p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+/* content03 */
+.content03 {
+  padding: 100px;
+  text-align: center;
+}
+.content03 .inner .video {
+  width: 1440;
+  height: 680px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
+}
+.content03 .inner p {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+.content03 .inner em {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--mainColor);
+}
+.content03 .inner .btn_hana {
+  display: inline-block;
+  width: 270px;
+  height: 70px;
+  border-radius: 8px;
+  background: var(--mainColor);
+  text-align: center;
+}
+.content03 .inner .btn_hana a {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--white);
+  line-height: 70px;
+}

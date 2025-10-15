@@ -1,0 +1,196 @@
+.subTitleArea {
+  background: url(../img/sub03/img_sub03_01_visual.jpg) no-repeat center/cover;
+}
+/* content01 */
+.content01{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.content01 h3{
+    font-size: 50px;
+    color: var(--mainColor);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.content01 span{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: var(--gray6);
+    display: block;
+    margin-bottom: 50px;
+}
+.content01 .imgBoxArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd; 
+    padding: 50px;
+}
+.content01 .imgBoxArea .imgBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content01 .imgBoxArea .imgBox dl{
+    margin-left: 40px;
+}
+.content01 .imgBoxArea .imgBox dl dt{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.content01 .imgBoxArea .imgBox dl dd{
+    text-align: left;
+    color: var(--gray6);
+    line-height: 1.5;
+}
+
+
+/* cont_tab */
+.content02{
+    margin-bottom: 60px;
+}
+.content02 .content_tab{ 
+    text-align: center;   
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.content02 .content_tab .cont_tab{
+    color: var(--gray6);
+    border: 1px solid #ddd;
+    width: 180px;
+    padding: 10px 0;
+    margin-right: 5px;
+}
+.content02 .content_tab .cont_tab a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.content02 .content_tab .on{
+    background: var(--mainColor);
+    color: var(--white);
+}
+.content02 .imgBox {
+    width: 100%;
+}
+.content02 .latte{
+    display: none;
+}
+.content02 .imgBox ul{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start
+}
+.content02 .imgBox ul li{
+    width: calc(25%);
+    margin: 0 20px;
+    position: relative;
+    text-align: center;
+}
+.content02 .imgBox ul li::after{
+    content: '';
+    width: 1px;
+    height:100%;
+    display: inline-block;
+    background: #ddd;
+    position: absolute;
+    top: 0;
+    right: -20px; 
+}
+.content02 .imgBox ul li:last-child:after{
+    display: none;
+}
+.content02 .imgBox ul li img{
+    width: 100%;
+}
+.content02 .imgBox ul li span{
+    display: block;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.content02 .imgBox ul li dl dd span{
+    font-size: 18px;
+}
+.content02 .imgBox ul li dl dd p{
+    line-height: 1.5;
+}
+
+/* content03 */
+.content03{
+    margin-bottom: 110px;
+}
+.content03 h3{
+  font-weight: 300;
+  font-size: 24px;
+  text-align: left;
+  color: var(--gray6);
+  margin-bottom: 60px;
+}
+.content03 h3::after{
+  content: '';
+  display: block;
+  width: 20px;
+  height: 4px;
+  background: #000;
+  margin: 20px 0 30px;
+}
+.content03 .stick_coffee01{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.content03 .stick_coffee01 li{
+    width: calc(30%);
+    background:#f4f4f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+.content03 .stick_coffee01 li::after{
+    content: '';
+    width: 11px;
+    height: 21px;
+    display: block;
+    position: absolute;
+    top: 50%; right: -10%;
+    background: url(../img/sub03/step_icon.gif) no-repeat center/contain;
+}
+.content03 .stick_coffee01 li:last-child:after{display: none;}
+.content03 .stick_coffee01 li figure{
+    width: 20px;
+}
+.content03 .stick_coffee01 li figure img{
+    width: 100%;
+}
+.content03 .stick_coffee02 {
+    display: flex;   
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+.content03 .stick_coffee02 .icon_box{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #1a437b;
+    text-align: center;
+    padding: 80px;
+    box-sizing: border-box;
+}
+.content03 .stick_coffee02 .icon_box img{
+    margin-bottom: 20px;
+}
+.content03 .stick_coffee02 .icon_box p{
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1.5;
+}
